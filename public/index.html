@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chota URL Shortener</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container glass">
+        <div class="logo">
+            <i class="fas fa-link fa-2x" style="color:#667eea;"></i>
+        </div>
+        <h1>Chota URL Shortener</h1>
+        <form id="shorten-form">
+            <input type="url" id="url-input" name="url" placeholder="Enter your URL here (e.g., https://www.google.com or just google.com)" required autocomplete="off">
+            <input type="text" id="custom-name" name="custom" placeholder="Custom name (optional, 3-20 characters)" maxlength="20" autocomplete="off">
+            <button type="submit"><i class="fas fa-magic"></i> Shorten URL</button>
+        </form>
+        <div id="result"></div>
+        <footer>
+            <small>Made with <span style="color:#e25555">&#10084;</span> by <a href="https://github.com/wqrzdn" target="_blank">wqrzdn</a></small>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
