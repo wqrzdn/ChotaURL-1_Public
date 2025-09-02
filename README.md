@@ -1,4 +1,4 @@
-# Chota URL Shortener 🚀
+# Chota URL Shortener 
 
 A modern, full-stack URL shortener built in Go.  
 I created this project to learn Go, explore backend development, and build something useful from scratch.
