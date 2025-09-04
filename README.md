@@ -1,7 +1,9 @@
 # Chota URL Shortener 
 
-A modern, full-stack URL shortener built in Go.  
-I created this project to learn Go, explore backend development, and build something useful from scratch.
+Chota is a simple, full-stack custom URL shortener built with Go.
+You can shorten long URLs into compact links, and optionally give them a custom name.
+For example, turn https://www.google.com into urlchota.vercel.app/google.
+I built this to learn Go, improve my backend skills, and create something actually useful.
 
 ## Why I Built This
 
@@ -12,6 +14,7 @@ I created this project to learn Go, explore backend development, and build somet
 ## Features
 
 -  Shorten any long URL to a compact, shareable link
+-  Lets you choose a custom name for the shortened URL (like /myportfolio)
 -  Fast redirects to original URLs
 -  Persistent storage using Redis
 -  Beautiful, responsive frontend (HTML/CSS/JS)
@@ -27,9 +30,11 @@ I created this project to learn Go, explore backend development, and build somet
 
 ## How It Works
 
-1. Paste a long URL into the form.
-2. Get a short link (e.g., `/abc123`).
-3. Share the link—anyone visiting it gets redirected instantly.
+1. Enter your long URL in the form
+2. (Optional) Choose a custom name (3–20 characters)
+3. Click "Shorten URL"
+4. Get a link like urlchota.vercel.app/yourname
+5. Anyone who opens that link gets redirected
 
 ## Getting Started
 
